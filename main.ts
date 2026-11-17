@@ -165,7 +165,8 @@ function referenceCurves(comps: Comparable[]): RefCurve[] {
     }
     const h1 = byHour.get(0);
     if (h1 === undefined || h1 <= 0) continue; // no launch-day hour 1 (e.g. pre-launch history)
-    // Need a usable curve: at least 20 of the 24 release-day hours present.
+    // Need a complete curve: every release-day hour present (a missing hour
+    // fails the loop below, so partial curves are excluded, not partially used).
     if (byHour.size < 20) continue;
     const logRatios: number[] = [];
     let ok = true;
