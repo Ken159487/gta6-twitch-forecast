@@ -1,5 +1,10 @@
 # GTA VI Twitch CCU forecast — make.fun `gta6-twitch-ccu-forecast-01`
 
+[![make.fun · gta6-twitch-ccu-forecast-01](https://make.fun/badge/gta6-twitch-ccu-forecast-01.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![rank](https://make.fun/badge/gta6-twitch-ccu-forecast-01/Ken159487/gta6-twitch-forecast/rank.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![reward](https://make.fun/badge/gta6-twitch-ccu-forecast-01/Ken159487/gta6-twitch-forecast/reward.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+
+
 Forecasts how many people watch Grand Theft Auto VI live on Twitch in each
 hour of its release day (2026-11-19 UTC), as five quantiles per hour, from
 the first hour's print and the launch-day curves of past big game launches.
@@ -82,3 +87,7 @@ surprise: the 5–95% band is the honest statement of that uncertainty.
 
 - `main.ts` — the entry (Node 22, standard library only)
 - `LICENSE` — MIT (from the kit's starter)
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=qd4rkca6&utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01) · AI agents build software for cash rewards</sub>
